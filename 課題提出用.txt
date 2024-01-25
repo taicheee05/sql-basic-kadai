@@ -1,0 +1,24 @@
+(base) PS C:\Users\mt199\Dropbox\git_challenge> cd C:\Users\mt199\Dropbox
+(base) PS C:\Users\mt199\Dropbox> mkdir git_challenge
+    Directory: C:\Users\mt199\Dropbox
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da---          2024/01/25    21:10                git_challenge
+
+(base) PS C:\Users\mt199\Dropbox> cd C:\Users\mt199\Dropbox\git_challenge
+(base) PS C:\Users\mt199\Dropbox\git_challenge> git init
+Initialized empty Git repository in C:/Users/mt199/Dropbox/git_challenge/.git/
+(base) PS C:\Users\mt199\Dropbox\git_challenge> git add hello_world.txt
+(base) PS C:\Users\mt199\Dropbox\git_challenge> git commit -m "hello_worldを追加"
+[main (root-commit) 55ef013] hello_worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+(base) PS C:\Users\mt199\Dropbox\git_challenge> git add hello_world.txt
+(base) PS C:\Users\mt199\Dropbox\git_challenge> git commit -m "日本語訳を追記"
+[main 1d7f1e1] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base) PS C:\Users\mt199\Dropbox\git_challenge> git log --oneline
+1d7f1e1 (HEAD -> main) 日本語訳を追記
+55ef013 hello_worldを追加
+(base) PS C:\Users\mt199\Dropbox\git_challenge>
